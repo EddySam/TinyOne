@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+/**************HEADER******************/
+header {
+    background: url("../images/headbg.png") no-repeat;
+    background-size: cover;
+    padding: 60px 0px 105px 0px;
+
+}
+
+header nav ul {
+    padding: 0;
+    margin: 10px 0px 0px 0px;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 70px;
+}
+
+header nav ul li:last-child {
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #010101;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+header .ipad {
+    margin-top: 65px;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #010101;
+    font-weight: 700;
+    margin: 130px 0px 25px 0px;
+}
+
+header h4 {
+    font-size: 20px;
+    color: #313841;
+    margin: 0px 0px 25px 0px;
+}
+
+header p {
+    font-size: 16px;
+    color: #555555;
+    margin: 0px 0px 40px 0px;
+}
+
+header .head-soc {
+    padding: 0;
+}
+
+header .head-soc li {
+    display: inline-block;
+    margin-right: 33px;
+}
+
+header .head-soc li a {
+    text-decoration: none;
+    font-size: 42px;
+    color: #010101;
+}
+
+/*******************AND HEADER***************************/
+/**************************CONTENT**************************/
+.content {
+    padding-top: 115px;
+    padding-bottom: 165px;
+}
+
+.content-title {
+    text-align: center;
+}
+
+.content .content-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.content .content-title p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 25px 0px 92px 0px;
+}
+
+.content .info-set i {
+    font-size: 50px;
+    padding: 0px 7px;
+    float: left;
+    color: #010101;
+}
+
+.content .info-set .full-info {
+    margin-left: 80px;
+}
+
+.content .info-set .full-info h3 {
+    font-size: 22px;
+    margin: 0px 0px 15px 0px;
+}
+
+.content .info-set .full-info p {
+    font-size: 16px;
+    margin: 0;
+    color: #898989;
+}
+
+.content .top-info {
+    margin-bottom: 85px;
+}
+/*********************and container*******************/
+/************************Footer********************/
+footer{
+    background-size:cover;
+    background: url("../images/footbg.png");
+    padding-top: 98px;
+    padding-bottom: 130px;
+}
+footer .content-title h2{
+    margin: 0;
+    color: #fcdb00;
+    font-size: 32px;
+    font-weight: 700;
+}
+footer .content-title h4{
+    font-size: 20px;
+    color: #898989;
+    margin: 25px 0px 40px 0px;
+}
+footer form {
+
+    margin: auto;
+}
+
+footer form label input{
+    width: 580px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+footer form  button{
+    width: 130px;
+    height: 50px;
+    background:#fcdb00 ;
+    border: 1px solid #000;
+    border-radius: 5px;
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+}
+footer .foot-soc{
+    margin:70px 0px 0px 0px ;
+}
+footer .foot-soc li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.foot-bott-info {
+    margin-top: 70px;
+    padding-top: 60px;
+    border-top: 1px solid #959595;
+    color: #fff;
+    font-size: 16px;
+}
+.foot-bott-info p{
+    margin: 0px 0px 0px 10px;
+}
+.foot-bott-info ul{
+    margin: 0;
+}
